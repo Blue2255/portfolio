@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#phone{
+    background: linear-gradient(to bottom right,blue,rgba(6, 6, 6, 0.745) );
+    height: 500px;
+    width: auto;
+}
+#phones{
+    font-size: 2em;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#phonex{
+    font-size: 2em;
+   padding: 10px;
+}
+#iphone{
+    height:  280px;
+    width: 265px;
+}

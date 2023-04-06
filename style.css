@@ -1,0 +1,515 @@
+ body{
+     background-color:purple; 
+} 
+#counterlabel{
+    text-align: center;
+    margin: 5px;
+    font-size: 7em;
+    display: block;
+    color: rgb(10, 10, 136);
+}
+#decrease{
+    /* text-align: center; */
+    margin: 25px; 
+    font-size: 2.5em;
+transition: all 1.8s;
+}
+#decrease:hover{
+    box-shadow: -10px 5px 10px rgb(2, 2, 103);
+    scale: 1.2;
+}
+#reset{
+    /* text-align: center; */
+     margin: 20px; 
+     font-size: 2.5em;
+    transition: all 1.8s;
+   
+}
+#reset:hover{
+    box-shadow: -10px 5px 10px grey;
+    scale: 1.2;
+}
+#increase{
+    text-align: center;
+ margin: 25px;
+    /* font-size: 2.5em; */
+    font-size: 2.5em;
+    /* display: block; */
+    transition: all 1.2s;
+}
+#increase:hover{
+    box-shadow: -10px 5px 10px black;
+    scale: 1.2;
+}
+#move{
+    margin-left: 13%;
+    height: 460px;
+    width: 620px;
+
+    background: white;
+box-shadow: -10px 5px 10px blue;
+margin-bottom: 80px;
+transition: all 1.8s;
+}
+#move:hover{
+    box-shadow: -10px 5px 10px white;
+    scale: 1.05;
+    background-color: black;
+
+}
+
+
+
+
+#moves{
+    
+        height: 380px;
+        width: 280px;
+        /* background:linear-gradient(to top left, grey); */
+        background-color: rgba(183, 175, 175, 0.359);
+        margin: 10px 15px 100px 10px;
+        padding: 1px;
+     border: 3px black solid;
+     border-radius: 2rem;
+        text-align: center;
+        transition: all 1s  ;
+        box-shadow: -10px 5px  10px grey;
+    
+}
+#a{
+    font-size: 1.2em;
+    margin:2% 3% 10% 1%;
+}
+
+#b{
+    font-size: 1.2em;
+    margin:2% 3% 10% 1%;
+}
+#c{
+    font-size: 1.4em;
+    margin:7% 3% 10% 1%;
+    color: white;
+}
+
+
+
+
+
+#godswill{
+    display: flex;
+    margin: 15px;
+    padding: 2px;
+    text-align: center;
+    background: linear-gradient(to right,blue,steelblue);
+    height: 800px;
+    width: auto;
+    border: 1px outset steelblue;
+    /* flex-wrap: wrap; */
+}
+.godswill{
+margin: 5px;
+font-size: 1.8em;
+text-align: center;
+background-color: burlywood;
+line-height: 70px;
+width: auto;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-transform: capitalize;
+text-shadow:black;
+font-weight: bolder;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#future{
+
+ display: flex;
+ height: 280px;
+  color: blue; 
+ text-transform: capitalize;
+ font-weight: bold;
+ border: 1px black solid;
+ border-radius: 1rem;
+  /* background-color: red;    */
+ width: 300px;
+ font-size: 2rem;
+ align-items: center; 
+  text-align: center;
+justify-content: center;
+box-shadow: -10px 5px 10px gray;
+transition: all 1s;
+margin-left: 40%;
+} 
+ #future:hover{
+    scale: 1.07;
+    box-shadow: -10px 5px 10px rgba(5, 5, 197, 0.764);
+    color: gray;
+} 
+#label{
+    height: 380px;
+    width: 280px;
+    background:linear-gradient(to top left, rgb(26, 26, 26) 50%,blue );
+    margin: 10px;
+    padding: 1px;
+ border: 3px black solid;
+ border-radius: 2rem;
+    text-align: center;
+    transition: all 1s  ;
+    box-shadow: -10px 5px  10px grey;
+}
+#email{
+    font-size: 1.2em;
+    margin: 10% 1% 10% 1%;
+    width: 240px;
+} 
+#password{
+    font-size: 1.2em;
+    margin: 2% 1% 10% 1%;
+    width: 240px;
+}
+#submitt{
+    font-size: 1em;
+    margin: 2% 1% 2% 1%;
+    width: 200px;
+    height: 40px;
+    
+}
+#log{
+   color: white;
+   background:linear-gradient(to right,rgb(15, 15, 130),grey) ;
+   /* border: 1px solid rgb(15, 15, 130); */
+   /* background-size: 1px; */
+   font-size: 1.2em;
+   margin: 2% 1% 2% 1%;
+   width: 200px;
+   height: 70px;
+   border:black 4px solid;
+   border-radius: 5em;
+
+
+}
+#label:hover{
+    scale: 1.07;
+    box-shadow: -10px 5px 10px rgba(5, 5, 197, 0.764);
+    color: gray;
+} 
+#sporty{
+    color: whitesmoke;
+}
+#rock{
+    background-color: red;
+    height: 180px;
+    width: 200px;
+    margin: 10px;
+}
+#paper{
+    background-color:green;
+    height: 180px;
+    margin: 10px;
+    width: 200px;
+}
+#scissors{
+    background-color: blue;
+    height: 180px;
+    margin: 10px;
+    width: 200px;
+}
+#dicv{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+}
+#big{
+    font-size: 3em;
+}
+#define{
+    margin-top: 10%;
+    background-color:black;
+    height: 600px;
+    width: 400px;
+    color: white;
+    border: black 4px solid;
+    border-radius: 1rem;
+    
+}
+#billtotal{
+    /* margin: 10px; */
+    letter-spacing: normal;
+    /* box-shadow: 5px -10px 5px blue; */
+    width: 100%;
+    background:transparent;
+    outline: 0;
+    padding: 10px;
+    border: 0;
+    margin: 2px;
+    font-size: larger;
+}
+#viv{
+    background-color: white;
+    margin: 15px ;
+    display: flex;
+    align-items: center;
+    border: black 2px solid;
+    height:55px;
+    justify-content: space-around;
+    font-size: 1.2em; 
+    border-radius: 1rem;
+}
+#tip{
+    width: 100%;
+    background:transparent;
+    outline: 0;
+    padding: 10px;
+    border: 0;
+    font-size: larger;
+
+}
+#v{
+    margin: 10px;
+    /* te-shadow:-2px 3px 5px black ; */
+    /* writing-mode: horizontal-lr; */
+}
+#bill{
+    margin: 10px;
+}
+#plus{
+    font-size: 3em;
+    font-weight: bolder;
+    background-color: purple;
+    color: white;
+    clip-path: circle();
+    padding: 6px;
+}
+#minus{
+    font-size: 3em;
+    font-weight: bolder;
+    background-color: purple;
+    color: white;
+    clip-path: circle();
+    padding:13px;
+    margin: 5px;
+}
+#one{
+    font-size: 3em;
+    font-weight: lighter;
+}
+#total{
+    position: relative;
+    
+    left: 200px;
+    bottom: 24.3%;
+}
+#bal{
+    margin: 5px;
+    font-size: 2.7em;
+}
+#people{
+    margin: 0%;
+    padding: 0%;
+    font-size: 1.7em;
+}
+#per{
+    font-size: 1.6em;
+}
+#tiptotal{
+font-size: 1.9em;
+    color: rgba(0, 0, 0, 0.904);
+}
+#ref{
+    font-size: 1.5em;
+    color: rgba(0, 0, 0, 0.904);
+}
+.rockgame{
+    font-size: 6em;
+    border: 1px white solid;
+    border-radius: 1.8rem;
+    margin: 15px;
+height: 133px;
+width: 145px;
+}
+#endgamebtn{
+    font-size: 6em;
+    border: 1px white solid;
+    border-radius: 2rem;
+    margin: 15px;
+    /* margin-left: 2.7%; */
+}
+#butoon{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+}
+#result{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    font-size: 2em;
+    font-weight: bolder;
+}
+#hands{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    font-size: 2em;
+    font-weight: bolder;
+}
+#gamec{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+}
+#run{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+}
+#playerScore{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    font-size: 2em;
+    font-weight: bolder;
+}
+.btns{
+    font-size: 2em;
+    color: black;
+}
+.btk{
+    
+    border:  20px solid transparent ;
+    border-radius: 25em;
+    font-size: 1.25em;
+    font-weight: 900;
+    margin: 10px;
+}
+#apis{
+    font-size: 2em;
+}
+#herobtn{
+    font-size: 2em;
+}
+#ved{
+    font-size: 1.4em;
+}
+#search{
+    font-size: 1.4em;
+
+}
+#texts{
+    font-size: 2em;
+    /* margin: 10px; */
+    /* box-shadow: -5px 5px 5px  black; */
+}
+#dis{
+    margin: 10px;
+}
+/*  */
+#time{
+    display: flex;
+    font-size: 2em;
+}
+/* #start{
+    font-size: 2em;
+    border: solid black 0.5rem;
+    border-radius: 1rem;
+} */
+#test{
+    font-size: 1.5em;
+    margin: 10px;
+    height: 80px;
+    width: 120px;
+    transition: all 2s;
+    background-color: purple;
+}
+#test:hover{
+    box-shadow: -10px 5px 10px black;
+    color: white;
+    /* background-color: black; */
+scale: 1.2;
+  background: blue;
+  /* font-family:Georgia, 'Times New Roman', Times, serif ; */
+}
+#calculator{
+   /* display: flex; */
+ display: grid;
+ grid-template-rows: repeat(4,99px);
+ grid-template-columns: repeat(4,92px);
+grid-auto-flow: row;
+
+}
+
+
+.bt{
+    
+    border:  20px solid transparent ;
+    border-radius: 25em;
+    font-size: 1.25em;
+    font-weight: 900;
+    margin: 10px;
+}
+.btd{
+    
+    border:  20px solid transparent ;
+    border-radius: 25em;
+    font-size: 1.25em;
+    font-weight: 900;
+    margin: 10px;
+}
+.btm{
+    
+    border:  20px solid transparent ;
+    border-radius: 25em;
+    font-size: 1.25em;
+    font-weight: 900;
+    margin: 10px;
+}
+#bts{
+    border:  1px solid transparent ;
+    border-radius: 3rem;
+    background-color: grey;
+    color: white;
+    font-size: 3.5em;
+    font-weight: 400;
+    margin: 10px;
+    height: 71px;
+    width: 160px;
+    padding-right: 90px;
+}
+#oga{
+    height:570px;
+    width: 358px;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 2rem;
+    margin: 20px;
+     padding-top: 75px;
+transition: all 1.8s;
+
+}
+#oga:hover{
+    box-shadow: -10px 5px 10px rgba(2, 2, 173, 0.967);
+    scale: 1.01;
+}
+#omg{
+    color: white;
+    background:none;
+    border: none;
+    font-size: 3.5em;
+    position: relative;
+    bottom: 0%;
+    max-inline-size: 340px;
+ max-width: 345px; 
+ text-align: right;
+ margin: 1px;
+}
